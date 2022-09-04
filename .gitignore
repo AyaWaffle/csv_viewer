@@ -2,7 +2,6 @@ streamlit_csv/
 .DS_Store
 __pycache__/
 
-result/
 
 test.html
 
