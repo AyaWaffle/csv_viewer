@@ -31,3 +31,11 @@ off: ## Deactivate a virtualenv
 .PHONY: html
 html: ## Generate html file from csv
 	python3 parser.py
+
+.PHONY: upload
+upload: ## Generate html file from csv
+	git config --global user.name AyaWaffle	
+	git config --global user.name sg.vis.0311@gmail.com
+	git add .
+	git commit -m "update files"
+	git push
