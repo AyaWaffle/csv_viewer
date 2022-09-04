@@ -34,8 +34,8 @@ html: ## Generate html file from csv
 
 .PHONY: upload
 upload: ## Generate html file from csv
-	git config --global user.name AyaWaffle	
-	git config --global user.email sg.vis.0311@gmail.com
+	git config --global user.name RilaKorila	
+	git config --global user.email murakami.ayana3@gmail.com
 	git add .
 	git commit -m "update files"
 	git push
